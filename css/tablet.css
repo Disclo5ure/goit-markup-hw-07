@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+  header {
+    padding: 0;
+    height: 72px;
+  }
+
+  header .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-nav-address {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-nav {
+    display: flex;
+    gap: 40px;
+  }
+
+  .address-nav {
+    margin-left: 121px;
+  }
+
+  .address-nav .list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 0;
+  }
+
+  .address-nav .list-item {
+  }
+
+  .address-nav .list-item {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}

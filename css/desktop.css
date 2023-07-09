@@ -1,0 +1,11 @@
+.traits-icon-container {
+  background-color: var(--cloud);
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin: 0 auto;
+}
