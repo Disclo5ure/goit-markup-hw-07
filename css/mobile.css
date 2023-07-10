@@ -824,8 +824,7 @@ textarea:focus {
 
 .menu-socials-list {
   display: flex;
-  justify-content: center;
-  gap: 56px;
+  justify-content: space-between;
 }
 
 .menu-icon-container {
