@@ -17,9 +17,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/mobile.css" />
     <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/vars.css" />
     <title>Document</title>
   </head>
@@ -30,21 +30,12 @@
         <a href="./index.html" class="logo link"
           >Web<span class="logo-word">Studio</span></a
         >
-        <button
-          type="button"
-          class="menu-button"
-          aria-expanded="true"
-          data-menu-button
-        >
-          <svg width="32" height="22">
-            <use
-              class="menu-strips"
-              href="./images/icons.svg#menu_strips"
-            ></use>
-            <use class="menu-x" href="./images/icons.svg#x"></use>
+        <button type="button" class="menu-button" data-menu-open>
+          <svg class="menu-strips" width="32" height="22">
+            <use href="./images/icons.svg#menu_strips"></use>
           </svg>
         </button>
-        <div class="header-nav-address is-open">
+        <div class="header-nav-address">
           <nav class="site-nav">
             <ul class="list">
               <li class="nav-link">
@@ -521,17 +512,76 @@
                 <svg class="form-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#checkbox"></use>
                 </svg> </span
-              >I accept the terms and conditions of the<a
-                href="#"
-                class="pp-link"
-                >Privacy Policy</a
-              ></label
+              >I accept the terms and conditions of the
+              <a href="#" class="pp-link">Privacy Policy</a></label
             >
           </div>
 
           <button class="button" type="submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <div class="menu" data-menu>
+      <button type="button" class="menu-close" data-menu-close>
+        <svg class="menu-strips" width="8" height="8">
+          <use href="./images/icons.svg#x"></use>
+        </svg>
+      </button>
+
+      <ul class="menu-nav-list">
+        <li class="list-item">
+          <a href="./index.html" class="list-item current link">Studio</a>
+        </li>
+        <li class="list-item">
+          <a href="./portfolio.html" class="list-item link">Portfolio</a>
+        </li>
+        <li class="list-item">
+          <a href="" class="list-item link">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="menu-contacts-list">
+        <li class="list-item">
+          <a href="tel:+110001111111" class="link main">+11 (000) 111-11-11</a>
+        </li>
+        <li class="list-item">
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="menu-socials-list list">
+        <li class="menu-icon-container">
+          <a href="instagram.com" class="menu-icon-link">
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-icon-container">
+          <a href="twitter.com" class="menu-icon-link">
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-icon-container">
+          <a href="facebook.com" class="menu-icon-link">
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-icon-container">
+          <a href="linkedin.com" class="menu-icon-link">
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
 
     <script src="./js/menu.js"></script>

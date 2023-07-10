@@ -1,12 +1,20 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    max-width: 768px;
+  }
+
   header {
     padding: 0;
     height: 72px;
   }
 
   header .container {
-    display: flex;
     align-items: center;
+    margin: 0 auto;
+  }
+
+  .menu-button {
+    display: none;
   }
 
   .header-nav-address {
@@ -17,6 +25,10 @@
   .site-nav {
     display: flex;
     gap: 40px;
+  }
+
+  .site-nav .list-item {
+    padding: 24px 0;
   }
 
   .address-nav {
@@ -31,10 +43,104 @@
   }
 
   .address-nav .list-item {
-  }
-
-  .address-nav .list-item {
     font-size: 12px;
     line-height: 1.17;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero .header {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.06;
+  }
+
+  .traits .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .traits .list-item {
+    max-width: 356px;
+    margin: 0;
+  }
+
+  .traits .header {
+    text-align: start;
+  }
+
+  .traits .paragraph {
+    font-weight: 500;
+  }
+
+  .team {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .team .container {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  .team .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    margin: 0 auto;
+  }
+
+  .member-card {
+    margin: 0;
+    padding: 0;
+  }
+
+  .customers .container {
+    max-width: 552px;
+    padding: 96px 0;
+  }
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+  .customer-icon-container {
+    width: 168px;
+  }
+
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    padding-top: 97px;
+    padding-bottom: 97px;
+    padding-left: 108px;
+    padding-right: 164px;
+  }
+
+  .footer-left,
+  .footer-socials,
+  .footer-form-div {
+    align-items: flex-start;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .modal {
+    width: 408px;
+    height: 584px;
+  }
+
+  .menu {
+    display: none;
   }
 }
