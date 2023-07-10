@@ -427,8 +427,8 @@ header .container {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: transform var(--quick-anim);
-
-  width: 392px;
+  width: 100%;
+  max-width: 392px;
   min-height: 584px;
   padding: 72px 16px 24px 16px;
   background: #fcfcfc;
@@ -473,7 +473,7 @@ header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 360px;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 24px;
 }
