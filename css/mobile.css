@@ -242,7 +242,7 @@ header .container {
 }
 
 .traits .list-item {
-  width: 396px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -270,7 +270,7 @@ header .container {
 
 .team {
   background-color: var(--cloud);
-  padding: 96px 67px;
+  padding: 96px 0;
 }
 
 .team .header {
@@ -754,7 +754,7 @@ textarea:focus {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: white;
